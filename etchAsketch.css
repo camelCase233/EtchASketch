@@ -1,0 +1,68 @@
+.colourPad {
+    background-color: #fff6f6;
+    height: 500px;
+    width: 500px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ffb3b3;
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #ffe6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 16px;
+    width: 16px;
+    border-radius: 5px; /* Softer edges */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+.commands {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.selectColour {
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.erasor {
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.erasor:hover {
+    background-color: #ff3333;
+    transform: scale(1.1);
+}
